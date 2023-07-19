@@ -289,16 +289,20 @@ footer {
   grid-template-columns: repeat(6, 1fr);
   width: 80%;
   margin: 50px auto;
+  padding-bottom: 10px;
 }
 .f-logo {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin: 0px auto;
   width: 40%;
+  padding-bottom: 10px;
+
   
 }
 .icon-f i {
   font-size: 30px;
+  padding-bottom: 10px;
 }
 .g-name-1 {
     display: grid;
@@ -467,4 +471,41 @@ footer {
     bottom: -70px;
     left: -100px;
   }
+  
+.foot-logo {
+    display: flex;
+    justify-content: center;
+  }
+  .g-name {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin: 50px auto;
+    padding-bottom: 10px;
+  }
+  .f-logo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px auto;
+    width: 40%;
+    padding-bottom: 10px;
+  
+    
+  }
+  .icon-f i {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+  .g-name-1 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      width: 80%;
+      margin: 50px auto;
+      padding-bottom: 10px;
+      
+    }
+    .address-f{
+      text-align: center;
+      padding-bottom: 50px;
+    }
 }

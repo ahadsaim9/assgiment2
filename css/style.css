@@ -81,10 +81,10 @@
   }
   .header-text h3 {
     font-family: Work Sans;
-    font-size: 95px;
+    font-size: 80px;
     font-style: normal;
     font-weight: 800;
-    background: linear-gradient(to right, rgb(253, 0, 0), red,yellow, blue,yellow, red, red,red );
+    background: linear-gradient(to right, red,yellow, blue,yellow, red, red,red );
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
   }
@@ -95,5 +95,30 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
+    margin-top: 20px;
   }
-  
+  .header-text > p > i{
+    margin-right: 10px;
+    color: rgb(253, 81, 110);
+  }
+  .btn {
+    margin-top: 30px;
+  }
+  .btn .btn-1{
+    background-color:  rgb(255, 0, 179);
+    border: none;
+    font-size: 28px;
+    padding: 8px 30px;
+    border-radius: 50px;
+    color: white;
+    margin-right: 25px;
+  }
+  .btn .btn-2{
+    background-color:  rgb(87, 200, 244);
+    border: none;
+    font-size: 28px;
+    padding: 8px 30px;
+    border-radius: 50px;
+    color: white;
+    margin-right: 25px;
+  }
